@@ -4,7 +4,7 @@ import { Button, Input } from '../../atoms'
 
 export default function SignUp() {
     return (
-        <div>
+        <div className="container p-3">
             <Form>
                 <Input controlId="FullName" title="Full Name" type="text" placeholder="Your Full Name" />
                 <Input controlId="PhoneNumber" title="Phone Number" type="number" placeholder="Phone Number (021) 2950000" />
